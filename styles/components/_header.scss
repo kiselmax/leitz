@@ -1,0 +1,67 @@
+.top {
+    &__wrap {
+        max-width: 1358px;
+        //border: 1px solid red;
+        margin: 0 auto;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        
+        
+        
+        position: relative;
+    }
+    &__logo {
+        position: relative;
+        width: 50%;
+    }
+    &__logo--img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 9;
+    }
+    //language
+    &__lang--select {
+        max-width: 67px;
+        margin-left: 150px;
+        margin-top: 6px;
+        border-color: transparent;
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+    //nav menu
+    &__nav {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        justify-content: flex-end;
+    }
+    &__nav--href {
+        margin: 0px 22px;
+        color: #181515;
+        line-height: 25px;
+        font-size: 12px;
+       
+        &:hover {
+            color: $hover;
+            border-top: 3px solid transparent;
+            border-bottom: 3px solid $hover;
+        }
+     
+    }
+    // mob burger image
+    &--burger-plashka {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        font-size: 25px;
+        height: 20px;
+        cursor: pointer;
+        display: none;
+    } 
+}
