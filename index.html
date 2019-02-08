@@ -1,592 +1,635 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Leitz</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./styles/main.css"> 
-</head>
-<body>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
     <div id="preloader">
-        <img src="./img/logo.png" alt="">    
-    </div> 
+      <img src="./img/logo.png" alt="" />
+    </div>
     <header>
-        <section class="top-line top">
-            <div class="logo-menu-wrap top__wrap">
-                <div class="logo top__logo">
-                    <a href="/">
-                        <img class="top__logo--img" src="../img/logo.png" alt="">
-                    </a>
-                    <div class="input-fiel top__lang">
-                        <!-- SELECT LANGUAGE -->
-                        <select class="browser-default top__lang--select">
-                        <option value="2">Укр</option>
-                        <option value="3">De</option>
-                        <option value="3">Eng</option>
-                        <option value="1">Рус</option>
-                        </select>
-                    </div>
-                </div>
-                <!-- MAIN NAV MENU -->
-                <nav class="main-nav-menu white top__nav">
-                        <a class="top__nav--href" href="#">Головна</a>
-                        <a class="top__nav--href" href="#">Продукцiя</a>
-                        <a class="top__nav--href" href="#">Сервiс</a>
-                        <a class="top__nav--href" href="#">Новини</a>
-                        <a class="top__nav--href" href="#">Про нас</a>
-                </nav>
-                <!-- mobile menu btn -->
-                <img class="burger-menu top--burger-plashka" src="../img/burger-img.png" alt="">
+      <section class="top-line top">
+        <div class="logo-menu-wrap top__wrap">
+          <div class="logo top__logo">
+            <a href="/">
+              <img class="top__logo--img" src="./img/logo.png" alt="" />
+            </a>
+            <div class="input-fiel top__lang">
+              <!-- SELECT LANGUAGE -->
+              <select class="browser-default top__lang--select">
+                <option value="2">Укр</option>
+                <option value="3">De</option>
+                <option value="3">Eng</option>
+                <option value="1">Рус</option>
+              </select>
             </div>
-        </section>
+          </div>
+          <!-- MAIN NAV MENU -->
+          <nav class="main-nav-menu white top__nav">
+            <a class="top__nav--href" href="#">Головна</a>
+            <a class="top__nav--href" href="#">Продукцiя</a>
+            <a class="top__nav--href" href="#">Сервiс</a>
+            <a class="top__nav--href" href="#">Новини</a>
+            <a class="top__nav--href" href="#">Про нас</a>
+          </nav>
+          <!-- mobile menu btn -->
+          <img class="burger-menu top--burger-plashka" src="./img/burger-img.png" alt="" />
+        </div>
+      </section>
 
-        <section class="main-presentation pres">
-            <div class="main-presentation-background pres--img"></div>
-            <div class="main-presentation-shadow pres__shadow">
-                <div class="presenatation-wrap pres__wrap">
-                    <div class="contact-phones pres__wrap--numbers">
-                        <a href="#">+380 44 499 2096</a> 
-                        <span class="separate-slash">/</span> 
-                        <a href="#">+380 44 499 2097</a>
-                    </div>
-                    <!-- BLOCK 1.1 -->
-                    <div class="container the-content-description pres__static static">
-                        <h1 class="static--title">СЕРВIС З ЯКIСТЮ <br> ВИРОБНИКА</h1>
-                        <p class="main-description static--text">
-                                Навіть найкращий високоякісний інструмент може
-                                забезпечити свою оптимальну продуктивність, отримавши
-                        </p>
-
-                        <div class="main-buttons static__btns">
-                            <button class="waves-effect waves-light siblin-button steps static--btn">ЕТАПИ ОБСЛУГОВУВАННЯ</button>
-                            <!-- click button - block 1.1 fade out, block 1.2 fade in -->
-                            <button class="waves-effect waves-light siblin-button presentation static--btn">ПРЕЗЕНТАЦIЯ СЕРВIСА</button>
-                        </div>
-                    </div>
-
-                    <!-- BLOCK 1.2 -->
-                    <div class="container  the_content-presentation pres__dinamic dinamic">
-                        <div class="wrapper-text-grafic dinamic__content-wrap ">
-                                <div class="left-text dinamic__wrap-text">
-                                        <span class="left-blue-line dinamic--blue-line"></span>
-                                        <!-- render the title -->
-                                        <h2 class="dinamic--title-presentation"></h2>
-                                        <!-- render descriptio -->
-                                        <p class="main-description-presentation dinamic--text-presentation"></p>
-                                </div>
-                                <div class="grafics graf">
-                                    <!-- render blue grafic -->
-                                    <div class="dinamic-grag graf--blue"></div>
-                                    <!-- static white grafic 100% -->
-                                    <div class="compare-grafic graf__white">
-                                        <div class="compare-item graf__white--item"></div>
-                                        <div class="compare-item graf__white--item"></div>
-                                        <div class="compare-item graf__white--item"></div>
-                                        <div class="compare-item graf__white--item"></div>
-                                        <div class="compare-item graf__white--item"></div>
-                                        <div class="compare-item graf__white--item"></div>
-                                    </div>
-                                </div>
-                        </div>
-                        <!-- six steps of presentation -->
-                        <div id="steps-in-graf">
-                            <div class="but-graf" data-ind="0" >
-                                <div class="wrapper-lizer">
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                </div>
-                            </div>
-                            <div class="string-liner" ></div>
-                            <div class="but-graf" data-ind="1" >
-                                <div class="wrapper-lizer">
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                </div>
-                            </div>
-                            <div class="string-liner" ></div>
-                            <div class="but-graf" data-ind="2" >
-                                <div class="wrapper-lizer">
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                </div>
-                            </div>
-                            <div class="string-liner" ></div>
-                            <div class="but-graf" data-ind="3" >
-                                <div class="wrapper-lizer">
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                </div>
-                            </div>
-                            <div class="string-liner" ></div>
-                            <div class="but-graf" data-ind="4" >
-                                <div class="wrapper-lizer">
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                </div>
-                            </div>
-                            <div class="string-liner" ></div>
-                            <div class="but-graf" data-ind="5" >
-                                <div class="wrapper-lizer">
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                    <div class="lizer"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- return to block 1.1 -->
-                        <button class="close-presentat dinamic--close"></button>
-                    </div>
-                </div>
-                <!--  animated SVG elements -->
-                <div id="area-for-header-svg" class="pres__svg">
-                    <div class="wrapper-svg" id="w-sv">
-                        <svg id="circle1" class="circle1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="470px" height="470px"> <path class="circle1-p" fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-                            d="M234.500,467.000 C362.906,467.000 467.000,362.906 467.000,234.500 C467.000,106.094 362.906,2.000 234.500,2.000 C106.093,2.000 2.000,106.094 2.000,234.500 C2.000,362.906 106.093,467.000 234.500,467.000 Z"/>
-                        </svg>
-                        <svg id="circle2" class="circle2"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="398px" height="398px"> <path  fill-rule="evenodd"  stroke="rgb(0, 124, 191)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-                            d="M198.499,395.000 C307.024,395.000 394.999,307.024 394.999,198.500 C394.999,89.976 307.024,2.000 198.499,2.000 C89.975,2.000 2.000,89.976 2.000,198.500 C2.000,307.024 89.975,395.000 198.499,395.000 Z"/>
-                        </svg>
-                        <svg class="line1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="80%" height="6px"> <path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-                            d="M2.500,2.500 L1034.245,2.500 "/>
-                        </svg>
-                        <svg class="line2"
-                                xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
-                                width="351px" height="6px"> <path fill-rule="evenodd"  stroke="rgb(0, 124, 191)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-                                d="M2.594,2.500 L348.000,2.500 "/>
-                        </svg>
-                        <svg class="line2little"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="351px" height="6px"> <path fill-rule="evenodd"  stroke="rgb(0, 124, 191)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-                            d="M2.594,2.500 L348.000,2.500 "/>
-                        </svg>
-                        <svg class="line-vert1"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="80%" height="6px"> <path fill-rule="evenodd"  stroke="rgb(255, 255, 255)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-                            d="M2.500,2.500 L1034.245,2.500 "/>
-                        </svg>
-                        <svg class="line-vert2"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="351px" height="6px"> <path fill-rule="evenodd"  stroke="rgb(0, 124, 191)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-                            d="M2.594,2.500 L348.000,2.500 "/>
-                        </svg>
-                        <svg class="circle-little"
-                            xmlns="http://www.w3.org/2000/svg"
-                            xmlns:xlink="http://www.w3.org/1999/xlink"
-                            width="32px" height="32px"> <path fill-rule="evenodd"  stroke="rgb(0, 124, 191)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-                            d="M15.500,28.500 C22.679,28.500 28.500,22.680 28.500,15.500 C28.500,8.320 22.679,2.500 15.500,2.500 C8.320,2.500 2.500,8.320 2.500,15.500 C2.500,22.680 8.320,28.500 15.500,28.500 Z"/>
-                        </svg>
-                    </div>
-                </div>
+      <section class="main-presentation pres">
+        <div class="main-presentation-background pres--img"></div>
+        <div class="main-presentation-shadow pres__shadow">
+          <div class="presenatation-wrap pres__wrap">
+            <div class="contact-phones pres__wrap--numbers">
+              <a href="#">+380 44 499 2096</a>
+              <span class="separate-slash">/</span>
+              <a href="#">+380 44 499 2097</a>
             </div>
-        </section>
+            <!-- BLOCK 1.1 -->
+            <div class="container the-content-description pres__static static">
+              <h1 class="static--title">
+                СЕРВIС З ЯКIСТЮ
+                <br />
+                ВИРОБНИКА
+              </h1>
+              <p class="main-description static--text">
+                Навіть найкращий високоякісний інструмент може забезпечити свою оптимальну продуктивність, отримавши
+              </p>
+
+              <div class="main-buttons static__btns">
+                <button class="waves-effect waves-light siblin-button steps static--btn">ЕТАПИ ОБСЛУГОВУВАННЯ</button>
+                <!-- click button - block 1.1 fade out, block 1.2 fade in -->
+                <button class="waves-effect waves-light siblin-button presentation static--btn">ПРЕЗЕНТАЦIЯ СЕРВIСА</button>
+              </div>
+            </div>
+
+            <!-- BLOCK 1.2 -->
+            <div class="container  the_content-presentation pres__dinamic dinamic">
+              <div class="wrapper-text-grafic dinamic__content-wrap ">
+                <div class="left-text dinamic__wrap-text">
+                  <span class="left-blue-line dinamic--blue-line"></span>
+                  <!-- render the title -->
+                  <h2 class="dinamic--title-presentation"></h2>
+                  <!-- render descriptio -->
+                  <p class="main-description-presentation dinamic--text-presentation"></p>
+                </div>
+                <div class="grafics graf">
+                  <!-- render blue grafic -->
+                  <div class="dinamic-grag graf--blue"></div>
+                  <!-- static white grafic 100% -->
+                  <div class="compare-grafic graf__white">
+                    <div class="compare-item graf__white--item"></div>
+                    <div class="compare-item graf__white--item"></div>
+                    <div class="compare-item graf__white--item"></div>
+                    <div class="compare-item graf__white--item"></div>
+                    <div class="compare-item graf__white--item"></div>
+                    <div class="compare-item graf__white--item"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- six steps of presentation -->
+              <div id="steps-in-graf">
+                <div class="but-graf" data-ind="0">
+                  <div class="wrapper-lizer">
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                  </div>
+                </div>
+                <div class="string-liner"></div>
+                <div class="but-graf" data-ind="1">
+                  <div class="wrapper-lizer">
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                  </div>
+                </div>
+                <div class="string-liner"></div>
+                <div class="but-graf" data-ind="2">
+                  <div class="wrapper-lizer">
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                  </div>
+                </div>
+                <div class="string-liner"></div>
+                <div class="but-graf" data-ind="3">
+                  <div class="wrapper-lizer">
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                  </div>
+                </div>
+                <div class="string-liner"></div>
+                <div class="but-graf" data-ind="4">
+                  <div class="wrapper-lizer">
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                  </div>
+                </div>
+                <div class="string-liner"></div>
+                <div class="but-graf" data-ind="5">
+                  <div class="wrapper-lizer">
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                    <div class="lizer"></div>
+                  </div>
+                </div>
+              </div>
+              <!-- return to block 1.1 -->
+              <button class="close-presentat dinamic--close"></button>
+            </div>
+          </div>
+          <!--  animated SVG elements -->
+          <div id="area-for-header-svg" class="pres__svg">
+            <div class="wrapper-svg" id="w-sv">
+              <svg id="circle1" class="circle1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="470px" height="470px">
+                <path
+                  class="circle1-p"
+                  fill-rule="evenodd"
+                  stroke="rgb(255, 255, 255)"
+                  stroke-width="1px"
+                  stroke-linecap="round"
+                  stroke-linejoin="miter"
+                  fill="none"
+                  d="M234.500,467.000 C362.906,467.000 467.000,362.906 467.000,234.500 C467.000,106.094 362.906,2.000 234.500,2.000 C106.093,2.000 2.000,106.094 2.000,234.500 C2.000,362.906 106.093,467.000 234.500,467.000 Z"
+                />
+              </svg>
+              <svg id="circle2" class="circle2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="398px" height="398px">
+                <path
+                  fill-rule="evenodd"
+                  stroke="rgb(0, 124, 191)"
+                  stroke-width="1px"
+                  stroke-linecap="round"
+                  stroke-linejoin="miter"
+                  fill="none"
+                  d="M198.499,395.000 C307.024,395.000 394.999,307.024 394.999,198.500 C394.999,89.976 307.024,2.000 198.499,2.000 C89.975,2.000 2.000,89.976 2.000,198.500 C2.000,307.024 89.975,395.000 198.499,395.000 Z"
+                />
+              </svg>
+              <svg class="line1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80%" height="6px">
+                <path
+                  fill-rule="evenodd"
+                  stroke="rgb(255, 255, 255)"
+                  stroke-width="1px"
+                  stroke-linecap="round"
+                  stroke-linejoin="miter"
+                  fill="none"
+                  d="M2.500,2.500 L1034.245,2.500 "
+                />
+              </svg>
+              <svg class="line2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="351px" height="6px">
+                <path
+                  fill-rule="evenodd"
+                  stroke="rgb(0, 124, 191)"
+                  stroke-width="1px"
+                  stroke-linecap="round"
+                  stroke-linejoin="miter"
+                  fill="none"
+                  d="M2.594,2.500 L348.000,2.500 "
+                />
+              </svg>
+              <svg class="line2little" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="351px" height="6px">
+                <path
+                  fill-rule="evenodd"
+                  stroke="rgb(0, 124, 191)"
+                  stroke-width="1px"
+                  stroke-linecap="round"
+                  stroke-linejoin="miter"
+                  fill="none"
+                  d="M2.594,2.500 L348.000,2.500 "
+                />
+              </svg>
+              <svg class="line-vert1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80%" height="6px">
+                <path
+                  fill-rule="evenodd"
+                  stroke="rgb(255, 255, 255)"
+                  stroke-width="1px"
+                  stroke-linecap="round"
+                  stroke-linejoin="miter"
+                  fill="none"
+                  d="M2.500,2.500 L1034.245,2.500 "
+                />
+              </svg>
+              <svg class="line-vert2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="351px" height="6px">
+                <path
+                  fill-rule="evenodd"
+                  stroke="rgb(0, 124, 191)"
+                  stroke-width="1px"
+                  stroke-linecap="round"
+                  stroke-linejoin="miter"
+                  fill="none"
+                  d="M2.594,2.500 L348.000,2.500 "
+                />
+              </svg>
+              <svg class="circle-little" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px">
+                <path
+                  fill-rule="evenodd"
+                  stroke="rgb(0, 124, 191)"
+                  stroke-width="1px"
+                  stroke-linecap="round"
+                  stroke-linejoin="miter"
+                  fill="none"
+                  d="M15.500,28.500 C22.679,28.500 28.500,22.680 28.500,15.500 C28.500,8.320 22.679,2.500 15.500,2.500 C8.320,2.500 2.500,8.320 2.500,15.500 C2.500,22.680 8.320,28.500 15.500,28.500 Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
 
     <!-- FIRST SLIDER -->
     <section class="first-slider-wrapper">
-        <svg class="line-vert2"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="351px" height="6px"> <path fill-rule="evenodd"  stroke="rgb(0, 124, 191)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-            d="M2.594,2.500 L348.000,2.500 "/>
-        </svg>
-        <svg class="circle-little"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="32px" height="32px"> <path fill-rule="evenodd"  stroke="rgb(0, 124, 191)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none"
-            d="M15.500,28.500 C22.679,28.500 28.500,22.680 28.500,15.500 C28.500,8.320 22.679,2.500 15.500,2.500 C8.320,2.500 2.500,8.320 2.500,15.500 C2.500,22.680 8.320,28.500 15.500,28.500 Z"/>
-        </svg>
-        <div class="container first-slider-wrapper-cont">
-                <div class="quatro-normal">
-                    <h3>ВIДЧУТНИЙ <br> РЕЗУЛЬТАТ</h3>
+      <svg class="line-vert2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="351px" height="6px">
+        <path fill-rule="evenodd" stroke="rgb(0, 124, 191)" stroke-width="1px" stroke-linecap="round" stroke-linejoin="miter" fill="none" d="M2.594,2.500 L348.000,2.500 " />
+      </svg>
+      <svg class="circle-little" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px">
+        <path
+          fill-rule="evenodd"
+          stroke="rgb(0, 124, 191)"
+          stroke-width="1px"
+          stroke-linecap="round"
+          stroke-linejoin="miter"
+          fill="none"
+          d="M15.500,28.500 C22.679,28.500 28.500,22.680 28.500,15.500 C28.500,8.320 22.679,2.500 15.500,2.500 C8.320,2.500 2.500,8.320 2.500,15.500 C2.500,22.680 8.320,28.500 15.500,28.500 Z"
+        />
+      </svg>
+      <div class="container first-slider-wrapper-cont">
+        <div class="quatro-normal">
+          <h3>
+            ВIДЧУТНИЙ
+            <br />
+            РЕЗУЛЬТАТ
+          </h3>
 
-                    <div class="slider-fill-result">
-                        <div class="slider-fill-result-slide">
-                            <h4>ОПТИМIЗАЦIЯ</h4>
-                            <p>
-                                Ми пропонуємо в усьому світі професійний сервіс для всіх
-                                інструментів, яким займається наша експедиційна служба.
-                                Завдяки цьому, у користувача інструментів відпадають власні
-                                витрати на транспортування інструментів та заточувальні
-                                верстати. І головне — відновлений інструмент працюватиме
-                                значно ефективніше за новий.
-                            </p>
-                            <img class="slide-imager" src="../img/worker.jpg" alt="">
-                        </div>
-                        <div class="slider-fill-result-slide">
-                            <h4>PF</h4>
-                            <p>
-                                Ми пропонуємо в усьому світі професійний сервіс для всіх
-                            </p>
-                            <img class="slide-imager" src="../img/l2.jpg" alt="">
-                        </div>
-                        <div class="slider-fill-result-slide">
-                            <h4>ОПТИМIЗАЦIЯ</h4>
-                            <p>
-                                Ми пропонуємо в усьому світі професійний сервіс для всіх
-                                інструментів, яким займається наша експедиційна служба.
-                                Завдяки цьому, у користувача інструментів відпадають власні
-                                витрати на транспортування інструментів та заточувальні
-                                верстати. І головне — відновлений інструмент працюватиме
-                                значно ефективніше за новий.
-                            </p>
-                            <img class="slide-imager" src="../img/l1.jpg" alt="">
-                        </div>
-                        <div class="slider-fill-result-slide">
-                            <h4>ОПТИМIЗАЦIЯ</h4>
-                            <p>
-                                Ми пропонуємо в усьому світі професійний сервіс для всіх
-                                інструментів, яким займається наша експедиційна служба.
-                                Завдяки цьому, у користувача інструментів відпадають власні
-                                витрати на транспортування інструментів та заточувальні
-                                верстати. І головне — відновлений інструмент працюватиме
-                                значно ефективніше за новий.
-                            </p>
-                            <img class="slide-imager" src="../img/l2.jpg" alt="">
-                        </div>
-                        <div class="slider-fill-result-slide">
-                            <h4>ОПТИМIЗАЦIЯ</h4>
-                            <p>
-                                Ми пропонуємо в усьому світі професійний сервіс для всіх
-                                інструментів, яким займається наша експедиційна служба.
-                                Завдяки цьому, у користувача інструментів відпадають власні
-                                витрати на транспортування інструментів та заточувальні
-                                верстати. І головне — відновлений інструмент працюватиме
-                                значно ефективніше за новий.
-                            </p>
-                            <img class="slide-imager" src="../img/l1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="control-point ">
-                        <div class="horizontal-line"></div>
-                        <div class="quatro-rotated">
-                            <div class="wrap_image_f_slider">
-                                <!-- here renders image of active slider by js -->
-                                <img src="../img/worker.jpg" alt="">
-                            </div>
-                        </div>
-                </div>
+          <div class="slider-fill-result">
+            <div class="slider-fill-result-slide">
+              <h4>ОПТИМIЗАЦIЯ</h4>
+              <p>
+                Ми пропонуємо в усьому світі професійний сервіс для всіх інструментів, яким займається наша експедиційна служба. Завдяки цьому, у користувача інструментів
+                відпадають власні витрати на транспортування інструментів та заточувальні верстати. І головне — відновлений інструмент працюватиме значно ефективніше за новий.
+              </p>
+              <img class="slide-imager" src="./img/worker.jpg" alt="" />
+            </div>
+            <div class="slider-fill-result-slide">
+              <h4>PF</h4>
+              <p>
+                Ми пропонуємо в усьому світі професійний сервіс для всіх
+              </p>
+              <img class="slide-imager" src="./img/l2.jpg" alt="" />
+            </div>
+            <div class="slider-fill-result-slide">
+              <h4>ОПТИМIЗАЦIЯ</h4>
+              <p>
+                Ми пропонуємо в усьому світі професійний сервіс для всіх інструментів, яким займається наша експедиційна служба. Завдяки цьому, у користувача інструментів
+                відпадають власні витрати на транспортування інструментів та заточувальні верстати. І головне — відновлений інструмент працюватиме значно ефективніше за новий.
+              </p>
+              <img class="slide-imager" src="./img/l1.jpg" alt="" />
+            </div>
+            <div class="slider-fill-result-slide">
+              <h4>ОПТИМIЗАЦIЯ</h4>
+              <p>
+                Ми пропонуємо в усьому світі професійний сервіс для всіх інструментів, яким займається наша експедиційна служба. Завдяки цьому, у користувача інструментів
+                відпадають власні витрати на транспортування інструментів та заточувальні верстати. І головне — відновлений інструмент працюватиме значно ефективніше за новий.
+              </p>
+              <img class="slide-imager" src="./img/l2.jpg" alt="" />
+            </div>
+            <div class="slider-fill-result-slide">
+              <h4>ОПТИМIЗАЦIЯ</h4>
+              <p>
+                Ми пропонуємо в усьому світі професійний сервіс для всіх інструментів, яким займається наша експедиційна служба. Завдяки цьому, у користувача інструментів
+                відпадають власні витрати на транспортування інструментів та заточувальні верстати. І головне — відновлений інструмент працюватиме значно ефективніше за новий.
+              </p>
+              <img class="slide-imager" src="./img/l1.jpg" alt="" />
+            </div>
+          </div>
         </div>
+        <div class="control-point ">
+          <div class="horizontal-line"></div>
+          <div class="quatro-rotated">
+            <div class="wrap_image_f_slider">
+              <!-- here renders image of active slider by js -->
+              <img src="./img/worker.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
 
     <!-- THREE processing -->
     <section class="wrapper-steps">
-        <div class="container">
-            <div class="row double-title-for-steps">
-                <div class="col l8 m9 s12"><h3 class="texts wow fadeIn">ОБСЛУГОВУВАННЯ</h3></div>
-                <div class="col l4 m3 s0"><h3 class="wow fadeIn"><span>Технiчний</span></h3></div>
-            </div>
+      <div class="container">
+        <div class="row double-title-for-steps">
+          <div class="col l8 m9 s12"><h3 class="texts wow fadeIn">ОБСЛУГОВУВАННЯ</h3></div>
+          <div class="col l4 m3 s0">
+            <h3 class="wow fadeIn"><span>Технiчний</span></h3>
+          </div>
         </div>
-        <div class="close-title-blue-line"></div>
+      </div>
+      <div class="close-title-blue-line"></div>
 
-        <div class="steps-tabler">
-            <!-- name of process -->
-            <div class="steps-labels">
-                <span class="label">Миття</span>
-                <span class="label">Оцiнка зносу</span>
-                <span class="label">Загострення</span>
-                <span class="label">Балансування</span>
-                <span class="label">Контроль</span>
-                <span class="label">Залишок ресурсу</span>
-            </div>
-            <div class="wrapper-stepses">
-                <div class="agranka"></div>
-                <p class="name-of-instrument">ТИПИ IНСТРУМЕНТIВ</p>
-                <!-- here renders types of instruments list -->
-            </div>
+      <div class="steps-tabler">
+        <!-- name of process -->
+        <div class="steps-labels">
+          <span class="label">Миття</span>
+          <span class="label">Оцiнка зносу</span>
+          <span class="label">Загострення</span>
+          <span class="label">Балансування</span>
+          <span class="label">Контроль</span>
+          <span class="label">Залишок ресурсу</span>
         </div>
-        <!-- the item of chosen instrument -->
-        <div class="container item-processing">
-            <div class="left-side">
-                <article class="top-articles">
-                    <p class="instrument-name">Назва iнструменту:</p>
-                    <p class="instrument"></p>
-                    <div class="change-item-process">
-                        <span>
-                            <img src="../img/wleft.png" class="fas fa-long-arrow-alt-left" alt="">
-                        </span>
-                        <span>
-                            <img src="../img/wright.png" class="fas fa-long-arrow-alt-right" alt="">
-                        </span>
-                    </div>
-                </article>
-                <div class="thumb-instrument-wrap">
-                    <img class="thumb-instrument" src="" alt="">
-                </div>
+        <div class="wrapper-stepses">
+          <div class="agranka"></div>
+          <p class="name-of-instrument">ТИПИ IНСТРУМЕНТIВ</p>
+          <!-- here renders types of instruments list -->
+        </div>
+      </div>
+      <!-- the item of chosen instrument -->
+      <div class="container item-processing">
+        <div class="left-side">
+          <article class="top-articles">
+            <p class="instrument-name">Назва iнструменту:</p>
+            <p class="instrument"></p>
+            <div class="change-item-process">
+              <span>
+                <img src="./img/wleft.png" class="fas fa-long-arrow-alt-left" alt="" />
+              </span>
+              <span>
+                <img src="./img/wright.png" class="fas fa-long-arrow-alt-right" alt="" />
+              </span>
             </div>
-            <div class="right-side">
-                <div class="quotr-cont">
-                    <!-- place for quatros of instrument item -->
-                </div>
-                <h5 class="porocess-title">
-                    
-                </h5>
-                <p class="process-description">
-                    
-                </p>
-            </div>
-            <span class="close-item"></span>
-        </div> 
+          </article>
+          <div class="thumb-instrument-wrap">
+            <img class="thumb-instrument" src="" alt="" />
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="quotr-cont">
+            <!-- place for quatros of instrument item -->
+          </div>
+          <h5 class="porocess-title"></h5>
+          <p class="process-description"></p>
+        </div>
+        <span class="close-item"></span>
+      </div>
     </section>
 
     <!-- FOUR  slider with residents -->
     <section class="resident-slider-wrapper">
-        <div class="container">
-            <div class="row double-title-for-stepz">
-                <div class="col l8 m8 s12"><h3 class="wow fadeIn">ЛЮДИ КОМПАНIї</h3></div>
-                <div class="col l4 m4"><h3 class="wow fadeIn"><span class="change-position-of-slider-targ">Керiвництво</span></h3></div>
-            </div>
+      <div class="container">
+        <div class="row double-title-for-stepz">
+          <div class="col l8 m8 s12"><h3 class="wow fadeIn">ЛЮДИ КОМПАНIї</h3></div>
+          <div class="col l4 m4">
+            <h3 class="wow fadeIn"><span class="change-position-of-slider-targ">Керiвництво</span></h3>
+          </div>
         </div>
-        <!-- initialize slider -->
-        <div class="slider-of-res">
-            <!-- slide -->
-            <div class="slide-item">
-                <div class="left-side avatar-sl">
-                    <img src="../img/jurgen.jpg" class="" alt="">
-                </div>
-                <div class="right-side">
-                        <p class="name">Brausewetter Juergen</p>
-                        <p class="position">CEO</p>
-                        <p class="description " >
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                        </p>
-                        <p class="change-position-of-slider">Керiвництво</p>
-                        <div class="contacts">
-                            <a href="#" class="f-phone">+38 077 777 77 77</a>
-                            <a href="#" class="s-phone">+38 076 776 76 76</a>
-                            <a href="#" class="e-main">E-Mail: brausewetter@leitz.com</a>
-                            <div class="place-for-arrows-cus">
-                                <div class="prev-ar"></div>
-                                <div class="next-ar"></div> 
-                            </div>
-                        </div>
-                </div>
+      </div>
+      <!-- initialize slider -->
+      <div class="slider-of-res">
+        <!-- slide -->
+        <div class="slide-item">
+          <div class="left-side avatar-sl">
+            <img src="./img/jurgen.jpg" class="" alt="" />
+          </div>
+          <div class="right-side">
+            <p class="name">Brausewetter Juergen</p>
+            <p class="position">CEO</p>
+            <p class="description ">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis
+            </p>
+            <p class="change-position-of-slider">Керiвництво</p>
+            <div class="contacts">
+              <a href="#" class="f-phone">+38 077 777 77 77</a>
+              <a href="#" class="s-phone">+38 076 776 76 76</a>
+              <a href="#" class="e-main">E-Mail: brausewetter@leitz.com</a>
+              <div class="place-for-arrows-cus">
+                <div class="prev-ar"></div>
+                <div class="next-ar"></div>
+              </div>
             </div>
-            <!-- slide -->
-            <div class="slide-item">
-                    <div class="left-side   avatar-sl">
-                        <img src="../img/tatiana.jpg" class="" alt="">
-                    </div>
-                    <div class="right-side">
-                        <p class="name">Руденко Тетяна</p>
-                        <p class="position">Сервіс-адміністратор</p>
-                        <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
-                        </p>
-                        <p class="change-position-of-slider">Адмiнiстратор</p>
-                        <div class="contacts">
-                            <a href="#" class="f-phone">+38 067 251 75 08</a>
-                            <a href="#" class="s-phone">+38 076 776 76 76</a>
-                            <a href="#" class="e-main">E-Mail: trudenko@leitz.org</a>
-                            <div class="place-for-arrows-cus">
-                                <div class="prev-ar"></div>
-                                <div class="next-ar"></div> 
-                            </div>
-                        </div>
-                    </div>
-            </div>
+          </div>
         </div>
-
+        <!-- slide -->
+        <div class="slide-item">
+          <div class="left-side   avatar-sl">
+            <img src="./img/tatiana.jpg" class="" alt="" />
+          </div>
+          <div class="right-side">
+            <p class="name">Руденко Тетяна</p>
+            <p class="position">Сервіс-адміністратор</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+              error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.
+            </p>
+            <p class="change-position-of-slider">Адмiнiстратор</p>
+            <div class="contacts">
+              <a href="#" class="f-phone">+38 067 251 75 08</a>
+              <a href="#" class="s-phone">+38 076 776 76 76</a>
+              <a href="#" class="e-main">E-Mail: trudenko@leitz.org</a>
+              <div class="place-for-arrows-cus">
+                <div class="prev-ar"></div>
+                <div class="next-ar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FIVE feetback -->
     <section class="wrapper-feetback">
-        <div class="container">
-            <div class="row double-title-for-stepz">
-                <div class="col l12 m12 s12"><h3 class="wow fadeIn" id="testsr">ВІДГУКИ НАШИХ КЛІЄНТІВ</h3></div>
-            </div>
+      <div class="container">
+        <div class="row double-title-for-stepz">
+          <div class="col l12 m12 s12"><h3 class="wow fadeIn" id="testsr">ВІДГУКИ НАШИХ КЛІЄНТІВ</h3></div>
         </div>
+      </div>
 
-       
-        <div class="the_wrap_feed">
-            <!-- render avatar, name and position -->
-            <div class="place-for-ava">
-                <span><div class="the-ava">
-                    <img src="../img/cl.jpg" alt="">
-                </div></span>
-                <div class="who-is">
-                    <p class="name-feed">Андрій Ковальчук</p>
-                    <p class="position-feed">
-                        Генеральний директор
-                        ТОВ “УКРПРОМ”
-                    </p>
-                </div>
+      <div class="the_wrap_feed">
+        <!-- render avatar, name and position -->
+        <div class="place-for-ava">
+          <span>
+            <div class="the-ava">
+              <img src="./img/cl.jpg" alt="" />
             </div>
-            <!-- render grafics of yers -->
-            <div class="the_wrap_graf">
-                <div class="year-wrap">
-                    <!-- grafic -->
-                    <div data-graf="0" class="graf graf-one active_graf"></div>
-                    <!-- year -->
-                    <span class="num-of-year">1991</span>
-                </div>
-                <div class="year-wrap">
-                    <div  data-graf="1" class="graf graf-two "></div>
-                    <span class="num-of-year">1992</span>
-                </div>
-                <div class="year-wrap">
-                    <div  data-graf="2" class="graf graf-three"></div>
-                    <span class="num-of-year">1999</span>
-                </div>
-                <div class="year-wrap">
-                    <div  data-graf="3" class="graf graf-four"></div>
-                    <span class="num-of-year">2005</span>
-                </div>
-                <div class="year-wrap">
-                    <div  data-graf="4" class="graf graf-five"></div>
-                    <span class="num-of-year">2010</span>
-                </div>
-                <div class="year-wrap">
-                    <div  data-graf="5" class="graf graf-six "></div>
-                    <span class="num-of-year">2018</span>
-                </div>
-            </div>
-            <!-- render comment -->
-            <div class="place-for-text">
-                “Високоякісний інструмент може працювати добре лише в тому випадку, якщо його обслуговуванням займаються професіонали. Саме тому ми обираємо Leitz”
-            </div>
+          </span>
+          <div class="who-is">
+            <p class="name-feed">Андрій Ковальчук</p>
+            <p class="position-feed">
+              Генеральний директор ТОВ “УКРПРОМ”
+            </p>
+          </div>
         </div>
+        <!-- render grafics of yers -->
+        <div class="the_wrap_graf">
+          <div class="year-wrap">
+            <!-- grafic -->
+            <div data-graf="0" class="graf graf-one active_graf"></div>
+            <!-- year -->
+            <span class="num-of-year">1991</span>
+          </div>
+          <div class="year-wrap">
+            <div data-graf="1" class="graf graf-two "></div>
+            <span class="num-of-year">1992</span>
+          </div>
+          <div class="year-wrap">
+            <div data-graf="2" class="graf graf-three"></div>
+            <span class="num-of-year">1999</span>
+          </div>
+          <div class="year-wrap">
+            <div data-graf="3" class="graf graf-four"></div>
+            <span class="num-of-year">2005</span>
+          </div>
+          <div class="year-wrap">
+            <div data-graf="4" class="graf graf-five"></div>
+            <span class="num-of-year">2010</span>
+          </div>
+          <div class="year-wrap">
+            <div data-graf="5" class="graf graf-six "></div>
+            <span class="num-of-year">2018</span>
+          </div>
+        </div>
+        <!-- render comment -->
+        <div class="place-for-text">
+          “Високоякісний інструмент може працювати добре лише в тому випадку, якщо його обслуговуванням займаються професіонали. Саме тому ми обираємо Leitz”
+        </div>
+      </div>
     </section>
-
 
     <!-- GOOGLE MAP -->
     <section class="mapa-with-form ">
-        <!-- THE MAP -->
-        <iframe class="the_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.316871134658!2d30.355165686096843!3d50.43684311115919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5de9a58821e2ffef!2z0JvQldCZ0KLQpiDQmNCd0KHQotCg0KPQnNCV0J3QotCrINCj0JrQoNCQ0JjQndCQINCe0J7Qng!5e0!3m2!1sru!2sua!4v1525522078407" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <div id="form-customer" class="container" >
-            <button class="show-cont-form-button btn blue darken-1 wave-effect">Замовити дзвiнок</button>
-                    <!-- CONTACT FORM -->
-            <div class="the_form z-depth-5">
-                <h3 class="center tit">ВИНИКЛИ ЗАПИТАННЯ?</h3>
-                <form class="" action="#" method="post">
-                    <input type="text" placeholder="Ваше iм'я">
-                    <input type="text" placeholder="Номер">
-                    <div class="drod-and-button">
-                        <input type="text" placeholder="Оберiть Ваше мiсто">
-                        <button class="btn blue darken-1">НАДIСЛАТИ</button>
-                    </div>
-                </form>
+      <!-- THE MAP -->
+      <iframe
+        class="the_mapa"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2330.316871134658!2d30.355165686096843!3d50.43684311115919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5de9a58821e2ffef!2z0JvQldCZ0KLQpiDQmNCd0KHQotCg0KPQnNCV0J3QotCrINCj0JrQoNCQ0JjQndCQINCe0J7Qng!5e0!3m2!1sru!2sua!4v1525522078407"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen
+      ></iframe>
+      <div id="form-customer" class="container">
+        <button class="show-cont-form-button btn blue darken-1 wave-effect">Замовити дзвiнок</button>
+        <!-- CONTACT FORM -->
+        <div class="the_form z-depth-5">
+          <h3 class="center tit">ВИНИКЛИ ЗАПИТАННЯ?</h3>
+          <form class="" action="#" method="post">
+            <input type="text" placeholder="Ваше iм'я" />
+            <input type="text" placeholder="Номер" />
+            <div class="drod-and-button">
+              <input type="text" placeholder="Оберiть Ваше мiсто" />
+              <button class="btn blue darken-1">НАДIСЛАТИ</button>
             </div>
+          </form>
         </div>
+      </div>
     </section>
 
-
-<footer class="wrap-footer">
-    <div class="container">
+    <footer class="wrap-footer">
+      <div class="container">
         <div class="row ">
-            <div class="col l3 m3 s12">
-                <div class="foot-cen wow fadeInUp ">
-                    <p><b>Продукцiя</b></p>
-                    <a href="#">Пили та ножi</a>
-                    <a href="#">Насаднi фрези</a>
-                    <a href="#">Матерiали</a>
-                    <a href="#">Аксесуари</a>
-                </div>
+          <div class="col l3 m3 s12">
+            <div class="foot-cen wow fadeInUp ">
+              <p><b>Продукцiя</b></p>
+              <a href="#">Пили та ножi</a>
+              <a href="#">Насаднi фрези</a>
+              <a href="#">Матерiали</a>
+              <a href="#">Аксесуари</a>
             </div>
-            <div class="col l3 m3 s12">
-                    <div class="foot-cen wow fadeInUp" data-wow-delay="0.2s">
-                        <p><b>Сервiс</b></p>
-                        <a href="#">Презентацiя</a>
-                        <a href="#">Етапи обслуговування</a>
-                        <a href="#">Наша команда</a>
-                        <a href="#">Вiдгуки клiентiв</a>
-                    </div>
+          </div>
+          <div class="col l3 m3 s12">
+            <div class="foot-cen wow fadeInUp" data-wow-delay="0.2s">
+              <p><b>Сервiс</b></p>
+              <a href="#">Презентацiя</a>
+              <a href="#">Етапи обслуговування</a>
+              <a href="#">Наша команда</a>
+              <a href="#">Вiдгуки клiентiв</a>
             </div>
-            <div class="col l3 m3 s12">
-                        <div class="foot-cen wow fadeInUp"  data-wow-delay="0.4s">
-                            <p><b>Новини</b></p>
-                            <a href="#">Заходи та події</a>
-                            <a href="#">Публікації</a>
-                            <a href="#">Інтерв’ю</a>
-                            <a href="#">Релізи</a>
-                        </div>
+          </div>
+          <div class="col l3 m3 s12">
+            <div class="foot-cen wow fadeInUp" data-wow-delay="0.4s">
+              <p><b>Новини</b></p>
+              <a href="#">Заходи та події</a>
+              <a href="#">Публікації</a>
+              <a href="#">Інтерв’ю</a>
+              <a href="#">Релізи</a>
             </div>
-            <div class="col l3 m3 s12">
-                            <div class="foot-cen wow fadeInUp"  data-wow-delay="0.6s">
-                                <p><b>Контакти</b></p>
-                                <a href="#">Зворотній зв’язок</a>
-                                <a href="#">Технічна підтримка</a>
-                                <a href="#">Соціальні мережі</a>
-                                <a href="#">Кар’єра</a>
-                            </div>
+          </div>
+          <div class="col l3 m3 s12">
+            <div class="foot-cen wow fadeInUp" data-wow-delay="0.6s">
+              <p><b>Контакти</b></p>
+              <a href="#">Зворотній зв’язок</a>
+              <a href="#">Технічна підтримка</a>
+              <a href="#">Соціальні мережі</a>
+              <a href="#">Кар’єра</a>
             </div>
+          </div>
         </div>
-    </div>
-    <img class=" wow fadeIn footer-logo"  data-wow-duration="1s" src="../img/logo.png" alt="">
-</footer>
+      </div>
+      <img class=" wow fadeIn footer-logo" data-wow-duration="1s" src="./img/logo.png" alt="" />
+    </footer>
 
-<!-- mobile menu -->
-<!-- <nav class="mob-menu-wrap">
-    <img src="../img/mouse-clicker.png" class="close-it" alt="">
+    <!-- mobile menu -->
+    <!-- <nav class="mob-menu-wrap">
+    <img src="./img/mouse-clicker.png" class="close-it" alt="">
     <a href="#">Головна</a>
     <a href="#">Продукцiя</a>
     <a href="#">Сервiс</a>
@@ -594,13 +637,12 @@
     <a href="#">Про нас</a>
 </nav> -->
 
-
-<div class="move-up">
-    <img src="../img/wleft.png" alt="">
-</div>
+    <div class="move-up">
+      <img src="./img/wleft.png" alt="" />
+    </div>
 
     <script src="./main.js"></script>
-    <script src="../node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
-    <script src="../node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
-</body>
+    <script src="./node_modules/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
+    <script src="./node_modules/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+  </body>
 </html>
